@@ -1,0 +1,442 @@
+// 自己编写需要的样式
+a{
+    text-decoration: none;
+    color: inherit;
+} 
+#service{
+    width: 100%;
+    min-width: 1380px;
+    margin: 0 auto; // background: url('~img/main.jpg') no-repeat center top;
+    background-color: #fff;
+    letter-spacing: 1px;
+    .box{
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .box:first-child{
+        margin-top: 0px;
+    }
+
+    .topBox {
+        height: 500px;
+        color: #fff;
+        background: url('~img/bg.jpg') no-repeat center top;
+        background-size: cover;
+        ul {
+          margin-top: 20px;
+        }
+        li {
+          list-style: none;
+        margin-left: 40px;
+          img{
+            width:200px;
+            display: block 
+          }
+          &.item{
+            width: 110px;
+            text-align: center;
+          }
+        }
+        
+        .topBoxleft {
+          li {
+            width: 100px;
+          }
+        }
+        .topBoxright {
+          li {
+            width: 60px;
+          }
+          .blueBtn {
+            margin-left: 10px;
+            width: 135px;
+            height: 46px;
+            line-height: 46px;
+            text-align: center;
+            background-color: #3FA3FB;
+          }
+        }
+        .content {
+          position: relative;
+        }
+        .count {//定位修改质量云平台
+          position: absolute;
+          top: 160px;
+         left: 92px;
+         h2{
+             font-size: 46px;
+             font-weight: 400;
+             line-height: 20px;
+         }
+         span{
+            display: block;
+            line-height: 40px;
+            font-size: 20px;
+         }
+        p{
+           height: 46px;
+           width: 174px;
+           background-color: #3ea3fa;
+           text-align: center;
+           line-height: 46px;
+           margin-top: 20px;
+        }
+          .number {
+            font-size: 110px;
+            border: 2px solid #5AA6DA;
+            border-radius: 10px;
+            margin-left: 15px;
+            height: 136px;
+            display: inline-block;
+            line-height: 136px;
+            width: 80px;
+            text-align: center;
+          }
+          .comma {
+            font-size: 110px;
+            display: inline-block;
+            width: 35px;
+            text-align: center;
+          }
+        }
+      }
+      .content {
+        margin: 0 auto;
+        width: 1380px;
+        height: 100%;
+      }
+    .boxcontent {
+        h3{
+            font-size: 30px;
+        }
+        .tip{
+            color: #8c8c8c;
+            font-size: 20px;
+            font-weight: 400;
+            }
+        .soft{
+            margin-top: 50px;
+            .item{
+                border: 1px solid #666;
+                width: 418px;
+                height: 456px;
+                // transition:all 2s;
+                .firstWatch {
+                  display: none;
+                }
+                &.first:hover {
+                  background: #3ea2fa;
+                  background: -moz-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: -webkit-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea2fa', endColorstr='#0ac8ff', GradientType=1);
+                  color: #fff;
+                  .icon{
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    background: url('~img/lufeng.jpg') no-repeat center center;
+                    background-size: 100%;
+                    .firstWatch{
+                      display: inline-block;
+                      width: 130px;
+                      height: 50px;
+                      border: 1px solid #fff;
+                      text-align: center;
+                      line-height: 50px;
+                      margin-top: 250px;
+                    }
+                  }
+                  .one{
+                    display: none;
+                  }
+                }
+                &.second:hover {
+                  background: #3ea2fa;
+                  background: -moz-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: -webkit-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea2fa', endColorstr='#0ac8ff', GradientType=1);
+                  color: #fff;
+                  .icon{
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    background: url('~img/wangyi.jpg') no-repeat center center;
+                    background-size: 100%;
+                    .firstWatch{
+                      display: inline-block;
+                      width: 130px;
+                      height: 50px;
+                      border: 1px solid #fff;
+                      text-align: center;
+                      line-height: 50px;
+                      margin-top: 250px;
+                    }
+                  }
+                  .two{
+                    display: none;
+                  }
+                }
+                &.three:hover {
+                  background: #3ea2fa;
+                  background: -moz-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: -webkit-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea2fa', endColorstr='#0ac8ff', GradientType=1);
+                  color: #fff;
+                  .icon{
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    background: url('~img/fda.jpg') no-repeat center center;
+                    background-size: 100%;
+                    .firstWatch{
+                      display: inline-block;
+                      width: 130px;
+                      height: 50px;
+                      border: 1px solid #fff;
+                      text-align: center;
+                      line-height: 50px;
+                      margin-top: 250px;
+                    }
+                  }
+                  .threen{
+                    display: none;
+                  }
+                }
+                &.four:hover {
+                  background: #3ea2fa;
+                  background: -moz-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: -webkit-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea2fa', endColorstr='#0ac8ff', GradientType=1);
+                  color: #fff;
+                  .icon{
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    background: url('~img/gelanshi.jpg') no-repeat center center;
+                    background-size: 100%;
+                    .firstWatch{
+                      display: inline-block;
+                      width: 130px;
+                      height: 50px; 
+                      border: 1px solid #fff;
+                      text-align: center;
+                      line-height: 50px;
+                      margin-top: 250px;
+                    }
+                  }
+                  .fourn{
+                    display: none;
+                  }
+                }
+                &.five:hover {
+                  background: #3ea2fa;
+                  background: -moz-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: -webkit-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea2fa', endColorstr='#0ac8ff', GradientType=1);
+                  color: #fff;
+                  .icon{
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    background: url('~img/deng.jpg') no-repeat center center;
+                    background-size: 100%;
+                    .firstWatch{
+                      display: inline-block;
+                      width: 130px;
+                      height: 50px; 
+                      border: 1px solid #fff;
+                      text-align: center;
+                      line-height: 50px;
+                      margin-top: 250px;
+                    }
+                  }
+                  .fiven{
+                    display: none;
+                  }
+                }
+                &.six:hover {
+                  background: #3ea2fa;
+                  background: -moz-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: -webkit-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea2fa', endColorstr='#0ac8ff', GradientType=1);
+                  color: #fff;
+                  .icon{
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    background: url('~img/anji.jpg') no-repeat center center;
+                    background-size: 100%;
+                    .firstWatch{
+                      display: inline-block;
+                      width: 130px;
+                      height: 50px; 
+                      border: 1px solid #fff;
+                      text-align: center;
+                      line-height: 50px;
+                      margin-top: 250px;
+                    }
+                  }
+                  .sixn{
+                    display: none;
+                  }
+                }
+                &.seven:hover {
+                  background: #3ea2fa;
+                  background: -moz-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: -webkit-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea2fa', endColorstr='#0ac8ff', GradientType=1);
+                  color: #fff;
+                  .icon{
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    background: url('~img/wang.jpg') no-repeat center center;
+                    background-size: 100%;
+                    .firstWatch{
+                      display: inline-block;
+                      width: 130px;
+                      height: 50px; 
+                      border: 1px solid #fff;
+                      text-align: center;
+                      line-height: 50px;
+                      margin-top: 250px;
+                    }
+                  }
+                  .sevenn{
+                    display: none;
+                  }
+                }
+                &.eight:hover {
+                  background: #3ea2fa;
+                  background: -moz-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: -webkit-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  background: linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea2fa', endColorstr='#0ac8ff', GradientType=1);
+                  color: #fff;
+                  .icon{
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    background: url('~img/liangtong.jpg') no-repeat center center;
+                    background-size: 100%;
+                    .firstWatch{
+                      display: inline-block;
+                      width: 130px;
+                      height: 50px; 
+                      border: 1px solid #fff;
+                      text-align: center;
+                      line-height: 50px;
+                      margin-top: 250px;
+                    }
+                  }
+                  .eightn{
+                    display: none;
+                  }
+                }
+
+                img{
+                    margin-top: 55px;
+                }
+                img:first-child{
+                    margin-top: 60px;
+                }
+                img:last-child{
+                    margin-top: 74px;
+                }
+                h5{
+                font-size: 20px;
+                color: #a8a8a8;
+                }
+                p{
+         font-size: 14px;
+         color: #737373;
+         line-height: 26px;
+        
+                }
+            }
+            .item:last-child{
+                margin-right: 0px;
+            }
+        }
+       
+    }
+
+    .bottomBox {
+        margin-top: 88px;
+        height: 280px;
+        background-color: #202528;
+        .content {
+          padding-left: 30px;
+        }
+        .item {
+        
+          width: 220px;
+          color: #fff;
+          padding-top: 54px;
+          .itemHead {
+            font-size: 18px;
+            margin-bottom: 17px;
+          }
+         ul{
+           padding-left: 0;
+          li {
+            color: #A6A7A9;
+            line-height: 40px;
+            font-size: 14px;
+            list-style: none;
+           
+          }
+         }
+        }
+        .bottomRight {
+        
+          padding-top: 54px;
+          width: 310px;
+          .text {
+            margin-top: 36px;
+            color: #fff;
+            font-size: 18px;
+          }
+        }
+      }
+
+      .footer {
+        background-color: #2D3236;
+        height: 80px;
+        color: #ACADAF;
+        line-height: 28px;
+        font-size: 14px;
+        .content {
+          padding-left: 25px;
+          padding-top: 10px;
+        }
+      }
+}
+
+// .item.first:hover {
+//   background-color: #3ea2fa;
+//   background-color: -moz-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+//   background-color: -webkit-linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+//   background-color: linear-gradient(45deg, #3ea2fa 0%, #0ac8ff 100%);
+//   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea2fa', endColorstr='#0ac8ff', GradientType=1);
+//   color: #fff;
+
+//   .icon{
+//     display: inline-block;
+//     width: 100%;
+//     height: 100%;
+//     background: url('~img/logol.jpg') no-repeat center center;
+//     background-size: 100%;
+//   }
+//   .one{
+//     display: none;
+//   }
+// }

@@ -1,0 +1,29 @@
+@import 'partials/mixins';
+.radioComponent {
+  .circle {
+    width: ptr(41px);
+    height: ptr(41px);
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    margin-right: ptr(15px);
+    box-sizing: content-box;
+  }
+  .active {
+    border: 1px solid #3799F7;
+    .spot {
+      background-color: #3799F7;
+      border-radius: 100%;
+      width: ptr(26px);
+      height: ptr(26px);
+    }
+  }
+  &.disabled {
+    .circle {
+      border: 1px solid #ccc;
+    }
+    color: #ccc;
+    .spot {
+      background-color: #ccc !important;
+    }
+  }
+}

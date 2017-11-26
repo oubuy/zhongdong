@@ -1,0 +1,52 @@
+@import "partials/mixins";
+#footer {
+    height: ptr(100px);
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    .text {
+        font-size: ptr(28px);
+        margin-top: ptr(5px);
+        color: #d0d0d0;
+    }
+    .icon_home_gray {
+        width: ptr(51px);
+        height: ptr(48px);
+        background: url('~img/home_gray.png') no-repeat center center;
+        background-size: 100% 100%;
+    }
+    .icon_form_gray {
+        width: ptr(37px);
+        height: ptr(46px);
+        background: url('~img/form_gray.png') no-repeat center center;
+        background-size: 100% 100%;
+    }
+    .icon_my_gray {
+        width: ptr(44px);
+        height: ptr(44px);
+        background: url('~img/my_gray.png') no-repeat center center;
+        background-size: 100% 100%;
+    }
+    .item.active {
+        .text {
+            color: #18A2FA;
+        }
+        .icon_home_gray {
+            width: ptr(51px);
+            height: ptr(48px);
+            background: url('~img/home.png') no-repeat center center;
+            background-size: 100% 100%;
+        }
+        .icon_form_gray {
+            width: ptr(37px);
+            height: ptr(46px);
+            background: url('~img/form.png') no-repeat center center;
+            background-size: 100% 100%;
+        }
+        .icon_my_gray {
+            width: ptr(44px);
+            height: ptr(44px);
+            background: url('~img/my.png') no-repeat center center;
+            background-size: 100% 100%;
+        }
+    }
+}

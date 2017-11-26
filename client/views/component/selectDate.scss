@@ -1,0 +1,41 @@
+@import 'partials/mixins';
+.modelSelectDate {
+  width: ptr(650px) !important;
+  .am-modal-title {
+    text-align: left;
+    border-left: ptr(8px) solid #3799F7;
+    padding-left: ptr(15px);
+  }
+  .modelSelectDateBody {
+    height: ptr(150px);
+    .dateInput {
+      width: ptr(270px);
+      height: ptr(70px);
+      border-radius: ptr(5px);
+      border: 1px solid #B8B8B8;
+      margin: 0 ptr(10px);
+    }
+  }
+  .icon_date {
+    width: ptr(29px);
+    height: ptr(29px);
+    background: url('~img/icon_date.png') no-repeat center center;
+    background-size: 100% 100%;
+  }
+  .am-modal-button {
+    height: ptr(80px);
+    line-height: ptr(80px);
+    font-size: ptr(34px);
+  }
+  .am-modal-button-group-h .am-modal-button:nth-child(1) {
+    background-color: #3799F7;
+    color: #fff;
+  }
+  .am-modal-button-group-h .am-modal-button:nth-child(2) {
+    background-color: #D7D7D7;
+    color: #5D5D5D;
+  }
+  .am-modal.am-modal-transparent .am-modal-content .am-modal-body {
+    padding: 0;
+  }
+}

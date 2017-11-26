@@ -1,0 +1,146 @@
+@import "partials/mixins";
+.phonecall-icon {
+    width: ptr(54px);
+    height: ptr(54px);
+    background: url('~img/phonecall-icon.png') no-repeat center center;
+    background-size: 100% 100%
+}
+
+.tool_kaoQin_click {
+    width: ptr(42px);
+    height: ptr(42px);
+    background: url('~img/tool_kaoQin_click.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tool_kaoQin_unclick {
+    width: ptr(42px);
+    height: ptr(42px);
+    background: url('~img/tool_kaoQin_unclick.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tool_bus_click {
+    width: ptr(42px);
+    height: ptr(42px);
+    background: url('~img/tool_bus_click.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tool_bus_unclick {
+    width: ptr(42px);
+    height: ptr(42px);
+    background: url('~img/tool_bus_unclick.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tool_notice_click {
+    width: ptr(42px);
+    height: ptr(42px);
+    background: url('~img/tool_notice_click.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tool_notice_unclick {
+    width: ptr(42px);
+    height: ptr(42px);
+    background: url('~img/tool_notice_unclick.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.calender-icon {
+    width: ptr(32px);
+    height: ptr(29px);
+    margin-right: ptr(25px);
+    background: url('~img/calender-icon.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.tool_kaoQin_unclick {
+    width: ptr(42px);
+    height: ptr(42px);
+    margin-right: ptr(15px);
+    background: url('~img/tool_kaoQin_unclick.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.not-send-icon {
+    width: ptr(36px);
+    height: ptr(36px);
+    margin-right: ptr(15px);
+    background: url('~img/not-send-icon.png') no-repeat center center;
+    background-size: 100% 100%
+}
+
+.edit-icon {
+    width: ptr(40px);
+    height: ptr(40px);
+    background: url('~img/edit-icon.png') no-repeat center center;
+    background-size: 100% 100%
+}
+
+.more-info-button {
+    width: ptr(40px);
+    height: ptr(40px);
+    background: url('~img/more-info-button.png') no-repeat center center;
+    background-size: 100% 100%
+}
+
+.finished_30 {
+    width: ptr(150px);
+    height: ptr(150px);
+    margin-bottom: ptr(10px);
+    background: url('~img/finished_30.png') no-repeat center center;
+    background-size: 100% 100%
+}
+
+.send_notice {
+    width: ptr(35px);
+    height: ptr(39px);
+    margin-left: ptr(10px);
+    background: url('~img/send_notice.png') no-repeat center center;
+    background-size: 100% 100%
+}
+
+.check-icon {
+    width: ptr(34px);
+    height: ptr(34px);
+    margin-right: ptr(10px);
+    background: url('~img/check-icon.png') no-repeat center center;
+    background-size: 100% 100%
+}
+
+.checkin_icon {
+    width: ptr(58px);
+    height: ptr(58px);
+    background: url('~img/checkin_icon.png') no-repeat center center;
+    background-size: 100% 100%
+}
+
+.punchin_icon {
+    width: ptr(58px);
+    height: ptr(58px);
+    background: url('~img/punchin_icon.png') no-repeat center center;
+    background-size: 100% 100%
+}
+
+.hosted_icon {
+    width: ptr(58px);
+    height: ptr(58px);
+    background: url('~img/hosted_icon.png') no-repeat center center;
+    background-size: 100% 100%
+}
+
+.offbus_icon {
+    width: ptr(58px);
+    height: ptr(58px);
+    background: url('~img/offbus_icon.png') no-repeat center center;
+    background-size: 100% 100%
+}
+
+.offschool_icon {
+    width: ptr(58px);
+    height: ptr(58px);
+    background: url('~img/offschool_icon.png') no-repeat center center;
+    background-size: 100% 100%
+}

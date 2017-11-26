@@ -1,0 +1,35 @@
+@import "partials/mixins";
+.numpad {
+    .input {
+        background-color: #2A2A2A;
+        line-height: pxToRem(120px);
+        height: pxToRem(120px);
+        padding: 0 pxToRem(50px);
+        font-weight: bold;
+        color: #fff;
+        text-align: right;
+        font-size: pxToRem(48px);
+    }
+    .line {
+        border: 1px solid #606060;
+        .item:nth-child(-n+3) {
+            border-right: 1px solid #606060;
+        }
+        .item {
+            background-color: #484848;
+            height: pxToRem(130px);
+            line-height: pxToRem(130px);
+            border: none;
+            border-radius: 0;
+            display: block;
+            font-size: pxToRem(42px);
+            font-weight: bold;
+            color: #fff;
+            &:active,
+            &.active {
+                background-color: #fff;
+                color: #484848;
+            }
+        }
+    }
+}

@@ -1,0 +1,4 @@
+@charset "UTF-8"; 
+@function ptr($val) {
+    @return ($val/100px) * 1rem;
+}
